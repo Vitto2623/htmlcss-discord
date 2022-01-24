@@ -5,6 +5,17 @@
     padding: 0;
 }
 
+header{
+    position: relative;
+    width: 100%;
+    background-color: #255ee9;
+    line-height: 80px;
+}
+
+img{
+    vertical-align: middle;
+}
+
 .font{
     font-family: 'Whitney-Semibold', sans-serif;
 }
@@ -19,11 +30,23 @@
     float: left;
 }
 
-header{
-    position: relative;
-    width: 100%;
-    background-color: #255ee9;
-    line-height: 80px;
+.buttons-styles{
+    border-radius: 30px;
+    padding: 13px 18px;
+    border: none;
+}
+
+.font-buttons{
+    font-family: 'Whitney-Semibold', sans-serif;
+    font-size: 22px;
+    margin-left: 23px;
+    padding: 19px 55px;
+    margin-top: 23px;
+}
+
+#special-button{
+    color: white;
+    background-color: #23272a;
 }
 
 .container{
@@ -34,18 +57,15 @@ header{
     background-color: crimson;
 }
 
-img{
-    vertical-align: middle;
-}
-
 .main-nav{
-    width: 60%;
+    width: 57%;
     text-align: center;
     margin: 0px 175px;
 }
 
 .main-nav a{
     text-decoration: none;
+    color: white;
 }
 
 .main-nav li{
@@ -56,7 +76,7 @@ img{
 .sub-container{
     position: relative;
     background-image: url(../img/jumbo.png);
-    height: 44vh;
+    height: 62vh;
     background-size: cover;
     background-position-x: center;
 }
@@ -66,33 +86,35 @@ img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: red;
     text-align: center;
-    width: 760px;
+    width: 905px;
 
 }
 
 .jumbotron p{
     line-height: 150%;
-    font-size: 20px;
+    font-size: 24px;
+    color: #ffffff;
+    width: 101%;
 }
 
 .jumbotron h1{
-    font-size: 51px;
+    font-size: 66px;
+    color: #ffffff;
+    padding: 30px;
 }
 
 .row{
     position: relative;
-    background-color: green;
+    background-color: white;
     height: 80vh;
 }
 
 .container-centered{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 57%;
     transform: translate(-50%, -50%);
-    background-color: red;
     text-align: center;
     width: 75%;
 }
@@ -102,5 +124,43 @@ img{
 }
 
 .row img{
-    width: 60%;
+    width: 50%;
+    margin-right: 104px;
+}
+
+.float-left p{
+    line-height: 150%;
+    font-size: 20px;
+}
+
+.background-color{
+    background-color: #f6f6f6;
+}
+
+.container-centered h1{
+    font-size: 45px;
+    color: #23272a;
+    text-align: left;
+    margin-top: 38px;
+    padding-right: 287px;
+}
+
+.container-centered p{
+    line-height: 150%;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 22px;
+    padding-right: 206px;
+}
+
+.background-container{
+    background-image: url(../img/stars.svg);
+}
+
+.background-container h1{
+    font-size: 30px;
+}
+
+#text-align-center{
+    text-align: center;
 }
