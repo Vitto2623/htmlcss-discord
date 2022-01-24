@@ -94,5 +94,13 @@ img{
     transform: translate(-50%, -50%);
     background-color: red;
     text-align: center;
-    
+    width: 75%;
+}
+
+.text-container{
+    width: 40%;
+}
+
+.row img{
+    width: 60%;
 }
