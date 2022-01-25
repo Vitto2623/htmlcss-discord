@@ -20,6 +20,11 @@ img{
     font-family: 'Whitney-Semibold', sans-serif;
 }
 
+.fa-long-arrow-alt-down:before {
+    content: "\f309";
+    margin-right: 3px;
+}
+
 .clearfix::after{
     content: "";
     display: table;
