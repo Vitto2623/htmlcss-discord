@@ -39,9 +39,9 @@ img{
 .font-buttons{
     font-family: 'Whitney-Semibold', sans-serif;
     font-size: 22px;
-    margin-left: 23px;
     padding: 19px 55px;
     margin-top: 23px;
+    margin-left: 18px;
 }
 
 #special-button1{
@@ -255,6 +255,12 @@ img{
 #special-button2{
     color: white;
     background-color: #8ea1e1;
+    border-radius: 30px;
+    padding: 13px 18px;
+    border: none;
+    font-family: 'Whitney-Semibold', sans-serif;
+    font-size: 21px;
+    margin-top: 12px;
 }
 /*FOOTER*/
 footer{
