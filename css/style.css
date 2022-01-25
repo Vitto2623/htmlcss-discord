@@ -44,7 +44,7 @@ img{
     margin-top: 23px;
 }
 
-#special-button{
+#special-button1{
     color: white;
     background-color: #23272a;
 }
@@ -54,7 +54,6 @@ img{
     width: 90%;
     height: 100%;
     max-width: 1300px;
-    background-color: crimson;
 }
 
 .main-nav{
@@ -103,64 +102,162 @@ img{
     color: #ffffff;
     padding: 30px;
 }
+/* MAIN */
 
-.row{
-    position: relative;
-    background-color: white;
+/* Prima sezione */
+
+#vh-modifica-1{
     height: 80vh;
 }
 
-.container-centered{
-    position: absolute;
-    top: 50%;
-    left: 57%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 75%;
+.container-2{
+    background-color: white;
+    height: 130vh;
+}
+
+.sub-container2{
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    max-width: 1300px;
+}
+
+.img-container{
+    width: 52%;
+    height: 564px;
+    padding-top: 126px;
 }
 
 .text-container{
-    width: 40%;
+    width: 48%;
+    height: 673px;
+    padding-top: 158px;
+    padding-left: 143px;
+    padding-right: 63px;
 }
 
-.row img{
-    width: 50%;
-    margin-right: 104px;
+.text-container h1{
+    font-size: 52px;
+    line-height: 106%;
+    color: #23272a;
 }
 
-.float-left p{
-    line-height: 150%;
-    font-size: 20px;
+.text-container p{
+    margin-top: 39px;
+    line-height: 36px;
+    font-size: 24px;
+}
+/* Seconda sezione */
+
+#vh-modifica-2{
+    height: 80vh;
 }
 
 .background-color{
     background-color: #f6f6f6;
 }
 
-.container-centered h1{
-    font-size: 45px;
+.text-container2{
+    width: 44%;
+    height: 521px;
+    padding-top: 246px;
+    padding-right: 127px;
+}
+
+.img-container2{
+    width: 56%;
+    height: 500px;
+    padding-top: 208px;
+}
+
+.text-container2 h1{
+    font-size: 52px;
+    line-height: 106%;
     color: #23272a;
-    text-align: left;
-    margin-top: 38px;
-    padding-right: 287px;
 }
 
-.container-centered p{
-    line-height: 150%;
-    font-size: 22px;
-    text-align: left;
-    margin-top: 22px;
-    padding-right: 206px;
+.text-container2 p{
+    margin-top: 39px;
+    line-height: 36px;
+    font-size: 24px;
+}
+/* Terza sezione */
+
+#vh-modifica-3{
+    height: 80vh;
 }
 
-.background-container{
-    background-image: url(../img/stars.svg);
+.img-container3{
+    width: 52%;
+    height: 564px;
+    padding-top: 132px;
 }
 
-.background-container h1{
-    font-size: 30px;
+.text-container3{
+    width: 48%;
+    height: 673px;
+    padding-top: 172px;
+    padding-left: 185px;
 }
 
-#text-align-center{
+.text-container3 h1{
+    font-size: 52px;
+    line-height: 106%;
+    color: #23272a;
+}
+
+.text-container3 p{
+    margin-top: 39px;
+    line-height: 36px;
+    font-size: 24px;
+}
+/* Quarta sezione */
+.text-container4{
+    width: 100%;
+    height: 417px;
+    padding-top: 196px;
+}
+
+.text-container4 h1{
+    font-size: 62px;
+    color: #23272a;
     text-align: center;
+}
+
+.text-container4 p{
+    line-height: 36px;
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#img-size{
+    width: 86%;
+    margin-left: 97px;
+}
+
+.bottom-row{
+    text-align: center;
+}
+
+.bottom-row h2{
+    text-align: center;
+    font-size: 32px;
+    color: #23272a;
+    background-image: url(../img/stars.svg);
+    margin-bottom: 11px;
+    padding-top: 34px;
+    background-position-x: center;
+    background-size: unset;
+
+}
+
+#special-button2{
+    color: white;
+    background-color: #8ea1e1;
+}
+/*FOOTER*/
+footer{
+    background-color: #23272a;
+    height: 80vh;
 }
